@@ -54,7 +54,7 @@ plt.title('Random Forest Bike Rentals', fontsize=15)
 plt.show()
 ```
 
-![Untitled](4%20%E1%84%85%E1%85%A2%E1%86%AB%E1%84%83%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%85%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%92%E1%85%A3%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC%2037a3b454dc7d4c6da2d027d4ebb3176e/Untitled.png)
+<img src="/assets/img/rfperform/fig1.png">
 
 50개 언저리에서 가장 좋은 성능을 발휘한다. 100개가 넘어가면 에러가 상승하기 시작한다. 나중에 다시 살펴본다.
 
