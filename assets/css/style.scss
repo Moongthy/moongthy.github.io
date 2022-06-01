@@ -11,7 +11,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
 /* append your custom style below */
 @font-face {
-  font-family: 'DGM';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -19,7 +19,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 @font-face {
-  font-family: 'DGM';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -27,7 +27,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 @font-face {
-  font-family: 'DGM';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -35,7 +35,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 @font-face {
-  font-family: 'DGM';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
