@@ -42,6 +42,38 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
 }
 
+@font-face {
+  font-family: 'Microsoft Yahei';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Microsoft Yahei';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Microsoft Yahei';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Microsoft Yahei';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+}
+
 /*! Lato */
 @font-face {
   font-family: Lato;
@@ -50,3 +82,5 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-display: swap;
   src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
 }
+
+
