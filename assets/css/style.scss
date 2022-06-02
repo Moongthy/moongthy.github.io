@@ -15,7 +15,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Light.ttf) format('truetype')
 }
 
 @font-face {
@@ -23,7 +23,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Regular.ttf) format('truetype')
 }
 
 @font-face {
@@ -31,7 +31,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Bold.ttf) format('truetype')
 }
 
 @font-face {
@@ -39,7 +39,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Bold.ttf) format('truetype')
 }
 
 @font-face {
@@ -47,7 +47,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Light.ttf) format('truetype')
 }
 
 @font-face {
@@ -55,7 +55,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Regular.ttf) format('truetype')
 }
 
 @font-face {
@@ -63,7 +63,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Bold.ttf) format('truetype')
 }
 
 @font-face {
@@ -71,16 +71,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
-}
-
-/*! Lato */
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(DungGeunMo/DungGeunMo.ttf) format('truetype')
+  src: url(MaruBuri/MaruBuri-Bold.ttf) format('truetype')
 }
 
 

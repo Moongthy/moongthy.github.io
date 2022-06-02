@@ -2,13 +2,13 @@
 title: 3 그레디언트 부스팅 하이퍼파라미터 튜닝
 author: mng
 date: 2022-06-02 19:02:00 +0900
-categories: [GRADIENT BOOSTING]
+categories: [XGB FOR GRADIENT BOOSTING, GRADIENT BOOSTING]
 tags: [gradient boosting]
 ---
 
 이번에는 가장 중요한 그레디언트 부스팅의 매개변수인 learning_rate과 모델의 트리 개수 또는 반복인 n_estimators에 초점을 맞출 것이다.
 또한
-<span style="color:orange">
+<span style="color:red">
 확률적 그레디언트 부스팅(stochastic gradient boosting)
 </span>
 을 만드는 subsample 매개변수도 알아볼 것이다.
@@ -20,7 +20,7 @@ tags: [gradient boosting]
 
 learning_rate은 모델 구축에 너무 큰 영향을 끼치지 않도록 개별 트리의 기여를 줄인다.
 이를
-<span style="color:orange">
+<span style="color:red">
 축소(shrinkage)
 </span>
 라고도 부른다.
@@ -73,7 +73,7 @@ learning_rate=0.1일 때 최소임이 잘 나타난다.
 3000개 트리를 사용하는 경우 learning_rate이 0.01일 때 최상의 점수를 낸다.
 
 이 그래프들은
-<span style="color:orange">
+<span style="color:red">
 learning_rate과 n_estimator 매개변수를 함께 튜닝
 </span>
 해야 한다는 점을 알려준다.
@@ -81,7 +81,7 @@ learning_rate과 n_estimator 매개변수를 함께 튜닝
 ## 3.2 기본 학습기
 
 그레디언트 부스팅의 회귀 모델의 기본학습기는
-<span style="color:orange">
+<span style="color:red">
 결정트리
 </span>
 이다. 이 결정 트리를 미세 튜닝할 필요는 없지만 정확도를 높이기 위해 매개변수를 조정 할 수 있다.
@@ -134,7 +134,7 @@ subsample: 0.5, RMSE: 626.9974073227554
 300개 트리, 최대깊이 3일 때 subsample=.7에서 가장 좋은 점수를 냈다.
 
 subsample이 1보다 작을 때 이런 모델을
-<span style="color:orange">
+<span style="color:red">
 확률적 그레디언트 부스팅
 </span>
 이라고 부른다. 확률적이라는 말은 모델에 무작위성이 주입된다는 말이다.

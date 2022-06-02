@@ -2,7 +2,7 @@
 title: 3 랜덤 포레스트 하이퍼 파라미터
 author: mng
 date: 2022-06-02 06:02:00 +0900
-categories: [RANDOM FOREST]
+categories: [XGB FOR GRADIENT BOOSTING, RANDOM FOREST]
 tags: [random forest]
 ---
 
@@ -36,7 +36,7 @@ print(rf.oob_score_)
 데이터 1을 사용하지 않은 DT = {DT1, DT3, DT6}
 
 데이터 1의 대한 각각의
-<span style="color:orange">
+<span style="color:red">
 예측확률
 </span>
 = {DT1: 0.7, DT3: 0.6, DT6: 0.5}
@@ -54,7 +54,7 @@ print(rf.oob_score_)
 ---
 
 랜덤 포레스트는
-<span style="color:orange">
+<span style="color:red">
 많은 트리를 앙상블 했을 때 강력한 성능
 </span>
 을 발휘한다. 얼마나 많아야 할까? 사이킷-런==0.22부터 n_estimator의 기본값을 10에서 100으로 변경했다. 100개의 트리가 분산을 줄이고 좋은 성능을 내는 데 충분할 수 있지만 데이터셋이 크면 500개 이상의 트리가 필요할 수 있다.

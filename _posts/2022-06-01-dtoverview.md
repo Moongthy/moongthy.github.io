@@ -2,20 +2,20 @@
 title: 1 결정 트리 개요
 author: mng
 date: 2022-06-01 16:30:00 +0900
-categories: [DECISION TREE]
+categories: [XGB FOR GRADIENT BOOSTING, DECISION TREE]
 tags: [decision tree]
 ---
-<span style="color:orange">
+<span style="color:red">
 앙상블 방법 중 하나인 XGBoost
 </span>
 의
-<span style="color:orange">
+<span style="color:red">
 기본학습기(base learner)
 </span>
 로 가장 널리 사용되는 결정 트리는 독특한 특징을 가진 머신러닝 알고리즘이다.
 선형 회귀와 로지스틱 회귀 처럼 특성을 가중치와 곱하는 대신 결정 트리는 특성에 대한 질문에 따라 데이터를 나눈다.
 사실 결정 트리를 만드는 것은
-<span style="color:orange">
+<span style="color:red">
 스무고개
 </span>
 게임을 하는 것과 같다.
@@ -32,7 +32,7 @@ tags: [decision tree]
 하지만 이런 모델은 새로운 데이터에 잘 일반화되지 못한다.
 
 결정 트리는
-<span style="color:orange">
+<span style="color:red">
 과대적합
 </span>
 되기 쉽다.
@@ -40,7 +40,7 @@ tags: [decision tree]
 나중에 분산과 편향을 다룰 때 살펴볼 것이다.
 하이퍼 파라미터 튜닝은 과대적합을 막는 한가지 방법이다.
 또 다른 방법은
-<span style="color:orange">
+<span style="color:red">
 **랜덤 포레스트**
 </span>
 와 XGBoost가 사용하는 전략으로 많은 트리의 예측을 모으는 것이다.

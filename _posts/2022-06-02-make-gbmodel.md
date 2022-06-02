@@ -2,7 +2,7 @@
 title: 2 그레디언트 부스팅 구현
 author: mng
 date: 2022-06-02 19:01:00 +0900
-categories: [GRADIENT BOOSTING]
+categories: [XGB FOR GRADIENT BOOSTING, GRADIENT BOOSTING]
 tags: [gradient boosting]
 ---
 
@@ -99,7 +99,7 @@ y2_train = y_train - y_train_pred
 
 ### 4. 새로운 트리 훈련
 
-<span style="color:orange">
+<span style="color:red">
 새로운 트리는 이 잔차를 맞추는 것을 목적으로 훈련한다.
 </span>
 잔차에서 트리를 훈련하는 것은 훈련 세트에서 훈련하는 것과 다르다. 주요한 차이는 예측값이다. 자전거 대여 데이터셋에서 잔차에 새로운 트리를 훈련할 때 점점 더 작은 값을 얻을 것이다. 새로운 트리를 초기화하고 X_train과 잔차인 y2_train에서 훈련한다.

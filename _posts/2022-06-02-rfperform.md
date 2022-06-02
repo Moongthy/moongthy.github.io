@@ -2,7 +2,7 @@
 title: 4 랜덤 포레스트 성능 향상
 author: mng
 date: 2022-06-02 06:02:00 +0900
-categories: [RANDOM FOREST]
+categories: [XGB FOR GRADIENT BOOSTING, RANDOM FOREST]
 tags: [random forest]
 ---
 

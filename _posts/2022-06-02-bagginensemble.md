@@ -2,7 +2,7 @@
 title: 1 배깅 앙상블 (Baggin ensemble)
 author: mng
 date: 2022-06-02 06:00:00 +0900
-categories: [RANDOM FOREST]
+categories: [XGB FOR GRADIENT BOOSTING, RANDOM FOREST]
 tags: [random forest]
 ---
 
@@ -19,7 +19,7 @@ tags: [random forest]
 어떤 집이 시장에 나온 첫 달만에 팔릴지 예측한다고 가정하자.
 여러 개의 머신러닝 모델을 실행하여 로지스틱 회귀는 80% 정확도,
 결정 트리는 75% 정확도,
-<span style="color:orange">
+<span style="color:red">
 k-최근접 이웃(K-nearest neighbors)
 </span>
 은 77% 정확도를 얻었다.
@@ -28,7 +28,7 @@ k-최근접 이웃(K-nearest neighbors)
 그러나 더 나은 방법은 각 모델의 예측을 합치는 것이다.
 
 분류기의 경우 앙상블하는 대표적인 방법은
-<span style="color:orange">
+<span style="color:red">
 다수결 투표(majority vote)
 </span>
 이다.
@@ -48,11 +48,11 @@ k-최근접 이웃(K-nearest neighbors)
 
 랜덤 포레스트는 분류일 경우 다수결 투표를 사용하고
 회귀일 경우 모델의 예측을 평균하지만 개별 트리를 만들기 위해
-<span style="color:orange">
+<span style="color:red">
 부트스트랩 애그리게이션(bootstrap aggregation)
 </span>
 의 약자인
-<span style="color:orange">
+<span style="color:red">
 배깅
 </span>
 이란 특별한 방법을 사용한다.
@@ -81,7 +81,7 @@ k-최근접 이웃(K-nearest neighbors)
 개별 결정 트리를 만들 때 부트스트래핑을 수행한다.
 모든 결정 트리가 동일한 샘플로 만들어진다면 모두 비슷한 예측을 만들게 되고 앙상블한 결과도 개별 트리와 비슷해 질 것이다.
 랜덤 포레스트는
-<span style="color:orange">
+<span style="color:red">
 원본 데이터셋과 같은 크기의 부트스트래핑 샘플
 </span>
 을 사용해 각 트리를 만든다.

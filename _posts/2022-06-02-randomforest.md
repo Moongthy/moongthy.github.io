@@ -2,7 +2,7 @@
 title: 2 랜덤 포레스트
 author: mng
 date: 2022-06-02 06:01:00 +0900
-categories: [RANDOM FOREST]
+categories: [XGB FOR GRADIENT BOOSTING, RANDOM FOREST]
 tags: [random forest]
 ---
 
@@ -54,7 +54,7 @@ accuracy mean:0.850
 성능이 향상된 것은 배깅 때문일 것이다. 이 랜덤 포레스트는 10개의 트리(n_estimators=10)를 사용하기 때문에 한 개가 아니라 10개의 결정 트리를 기반으로 예측을 만든다. 각 트리는 부트 스트래핑 샘플을 사용하므로 다양성이 높아지고 이를 집계하면 분산이 줄어든다.
 
 기본적으로 랜덤 포레스트 분류기는 노드를 분할 할 때
-<span style="color:orange">
+<span style="color:red">
 feature개수의 제곱근
 </span>
 을 사용한다. 예를 들어 100개의 특성이 있다면 랜덤 포레스트의 각 결정 트리는 10개의 특성만 사용한다. 따라서 중복 샘플을 가진 두 트리의 분할이 달라지기 때문에 매우 다른 예측을 만들 수 있다. 이것이 랜덤 포레스트가 분산을 줄이는 또 하나의 방법이다.
@@ -65,7 +65,7 @@ feature개수의 제곱근
 
 랜덤 포레스트 회귀 모델은 분류 모델과 마찬가지로 부트스트랩 샘플을 사용하지만
 노드 분할에 feature 개수의 제곱근이 아니라
-<span style="color:orange">
+<span style="color:red">
 feature 전체
 </span>
 를 사용한다.

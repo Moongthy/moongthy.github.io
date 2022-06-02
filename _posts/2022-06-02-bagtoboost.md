@@ -2,23 +2,23 @@
 title: 1 배깅에서 부스팅까지
 author: mng
 date: 2022-06-02 19:00:00 +0900
-categories: [GRADIENT BOOSTING]
+categories: [XGB FOR GRADIENT BOOSTING, GRADIENT BOOSTING]
 tags: [gradient boosting, bagging]
 ---
 
 랜덤 포레스트 같은 앙상블 머신러닝 알고리즘이 많은 모델을 하나로 연결하여 더 나은 예측을 만드는 이유를 알고있다.
 랜덤 포레스트는 (결정 트리에서)
-<span style="color:orange">
+<span style="color:red">
 부트 스트랩 샘플
 </span>
 을 사용하기 때문에
-<span style="color:orange">
+<span style="color:red">
 배깅
 </span>
 알고리즘으로 분류된다.
 
 이와 달리
-<span style="color:orange">
+<span style="color:red">
 부스팅
 </span>
 은 개별 트리의 실수로부터 학습한다.
@@ -39,7 +39,7 @@ tags: [gradient boosting, bagging]
 약한 학습기는 우연보다 조금 나은 성능을 내는 머신러닝 모델을 말한다.
 강한 학습기는 많은 양의 데이터에서 학습하여 매우 잘 수행되는 모델이다.
 
-<span style="color:orange">
+<span style="color:red">
 약한 학습기
 </span>
 를 강력한 학습기로 변환하는 것이 부스팅 알고리즘의 일반적인 아이디어이다.
@@ -66,7 +66,7 @@ tags: [gradient boosting, bagging]
 
 오차에만 초점을 맞추는 머신러닝 알고리즘을 만드려면 정확한 최종 예측을 만들기 위해 오차를 계산하는 방벙이 필요하다.
 이런 방법은 모델의 예측과 실제 값 사이의 차이인
-<span style="color:orange">
+<span style="color:red">
 잔차 (residual)
 </span>
 를 활용한다.
